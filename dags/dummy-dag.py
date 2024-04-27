@@ -1,6 +1,6 @@
 from airflow import DAG
 from airflow.operators.python import PythonOperator
-from airflow.operators import DummyOperator
+from airflow.operators.dummy import DummyOperator
 from datetime import datetime
 
 args = {
