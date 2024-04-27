@@ -9,7 +9,7 @@ args = {
 }
 
 with DAG(
-    dag_id='dag_python_operator',
+    dag_id='main_dag_python_operator',
     schedule_interval='*/1 * * * *',
     default_args=args,
     catchup=False
